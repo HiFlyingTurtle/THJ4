@@ -21,7 +21,6 @@ public class RandomAccessFileO {
         file.seek(0);
 
         System.out.println(file.readLine());
-
         file.close();
     }
 }
