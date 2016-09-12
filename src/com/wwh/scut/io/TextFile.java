@@ -20,11 +20,9 @@ public class TextFile extends ArrayList<String> {
                       //读取一个文本行
                       while ((s=in.readLine())!=null){
                              sb.append(s);
-                          sb.append("\n");
+                             sb.append("\n");
                       }
-                  } catch (IOException e) {
-                      e.printStackTrace();
-                  }finally {
+                  } finally {
                       in.close();
 
                   }
